@@ -1,4 +1,4 @@
-import UserRegisterContext from '../../context/user/UserRegisterContext';
+import UserRegisterContext from '../../context/UserRegisterContext';
 
 export default function User() {
   return (

@@ -2,10 +2,10 @@ import React from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 
-import { userSchema } from '../../validators/userSchema';
+import { userSchema } from '../validators/userSchema';
 
-import BasicInfo from '../../modules/user/register/BasicInfo';
-import AddressInfo from '../../modules/user/register/AddressInfo';
+import BasicInfo from '../modules/user/register/BasicInfo';
+import AddressInfo from '../modules/user/register/AddressInfo';
 
 interface FormState {
   name: string;
