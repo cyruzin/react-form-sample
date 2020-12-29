@@ -40,7 +40,9 @@ export default function UserRegisterContext() {
     mode: 'onBlur'
   });
 
-  const onSubmit = (data: FormState) => console.log(data);
+  const onSubmit = (data: FormState) => {
+    alert(JSON.stringify(data, null, 2))
+  }
 
   return (
     <FormProvider {...methods}>

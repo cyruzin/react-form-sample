@@ -1,10 +1,11 @@
-import User from './modules/user/index';
+import User from './modules/user';
+import ErrorBoundary from './components/ErrorBoundary';
 
 function App() {
   return (
-    <div>
+    <ErrorBoundary>
       <User />
-    </div>
+    </ErrorBoundary>
   );
 }
 
